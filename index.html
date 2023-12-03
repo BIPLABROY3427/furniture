@@ -1,0 +1,598 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Furniture</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css?family=Source+Serif+Pro:400,600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/footer.css">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./owl.css">
+    <link rel="stylesheet" href="./assets/fonts/style.css">
+</head>
+
+<body>
+    <header>
+        <div class="container-fluid navbg p-2" id="navbar">
+            <div class="container">
+                <div class="row justify-content-center align-items-center g-2">
+                    <div class="col-md-3 col-sm">
+                        <img class="icon" src="./assets/icons/FurnishFlow.png" alt="">
+                    </div>
+                    <div class="col-md-6 col-sm">
+                        <div class="form">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                            <input type="text" class="form-control form-input"
+                                placeholder="Search your “products” here" />
+                            <span class="left-pan">
+                                <i class="fa-solid fa-location-dot"></i>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm mobileHide">
+                        <div class="d-flex justify-content-center align-items-center">
+                            <button type="button" class="login-btn  btn btn-outline-primary">Login</button>
+                            <i class="text-light text-center w-100 fa-regular fa-heart"></i>
+                            <i class="text-light text-center w-100 fa-solid fa-cart-shopping"></i>
+                            <i class="text-light text-center w-100 fa-solid fa-bars"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container carbg">
+            <div id="cat" class="owl-carousel owl-theme pt-2 pb-2">
+                <div class="item">
+                    <img src="./assets/cat/cat1.png" class="card-img-top catimage" alt="...">
+                    <p class="card-text text-center catfont">Couch</p>
+                </div>
+                <div class="item">
+                    <img src="./assets/cat/cat2.png" class="card-img-top catimage" alt="...">
+                    <p class="card-text text-center catfont">Cabinate</p>
+                </div>
+                <div class="item">
+                    <img src="./assets/cat/cat3.png" class="card-img-top catimage" alt="...">
+                    <p class="card-text text-center catfont">Table</p>
+                </div>
+                <div class="item">
+                    <img src="./assets/cat/cat4.png" class="card-img-top catimage" alt="...">
+                    <p class="card-text text-center catfont">Buffet</p>
+                </div>
+                <div class="item">
+                    <img src="./assets/cat/cat5.png" class="card-img-top catimage" alt="...">
+                    <p class="card-text text-center catfont">Chair</p>
+                </div>
+                <div class="item">
+                    <img src="./assets/cat/cat6.png" class="card-img-top catimage" alt="...">
+                    <p class="card-text text-center catfont">wardrobe</p>
+                </div>
+                <div class="item">
+                    <img src="./assets/cat/cat7.png" class="card-img-top catimage" alt="...">
+                    <p class="card-text text-center catfont">Bed</p>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="container headspace">
+        <div id="carouselExampleIndicators" class="carousel slide">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="./assets/carousel/carousel1.png" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="./assets/carousel/carousel1.png" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="./assets/carousel/carousel3.png" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="./assets/carousel/carousel4.png" class="d-block w-100" alt="...">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+        <div class="container">
+            <div class="center">
+                <p class="text-center shopwhatstxt fs-1 pb-0">Shop What's The Fry Deal's</p>
+            </div>
+            <p class="dels-view-all fs-5 pb-0 pointer">View All <i class="fa-solid fa-arrow-right"></i></p>
+
+        </div>
+        <div id="deals" class="owl-carousel owl-theme">
+            <div class="item">
+                <a href="#deals">
+                    <div class="item-img">
+                        <img src="./assets/icons/Rectangle-42.png" alt="" width="100%">
+                    </div>
+                </a>
+            </div>
+            <div class="item">
+                <a href="#deals">
+                    <div class="item-img">
+                        <img src="./assets/icons/Rectangle-46.png" alt="" width="100%">
+                    </div>
+                </a>
+            </div>
+            <div class="item">
+                <a href="#deals">
+                    <div class="item-img">
+                        <img src="./assets/icons/Rectangle-44.png" alt="" width="100%">
+                    </div>
+                </a>
+            </div>
+            <div class="item">
+                <a href="#deals">
+                    <div class="item-img">
+                        <img src="./assets/icons/Rectangle-45.png" alt="" width="100%">
+                    </div>
+                </a>
+            </div>
+            <div class="item">
+                <a href="#deals">
+                    <div class="item-img">
+                        <img src="./assets/icons/Rectangle-42.png" alt="" width="100%">
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="center">
+            <p class="text-center shopwhatstxt fs-1 pb-0">Explore Most Wanted</p>
+        </div>
+    </div>
+    <div class="container-fluid ">
+        <div class="px-lg-5">
+            <div id="myData" class="row">
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="center dsdfgdsghd">
+            <button class="View-All-btn-Inspiration pointer fw-bold">View All <i
+                    class="fa-solid fa-arrow-right"></i></button>
+        </div>
+        <div class="center">
+            <p class="text-center shopwhatstxt fs-1 pb-0">Customer stories</p>
+        </div>
+        <p class="dels-view-all fs-5 pb-0 pointer m-3">View All <i class="fa-solid fa-arrow-right"></i></p>
+        <div id="Customer-card" class="owl-carousel owl-theme mb-4">
+            <div class="item">
+                <div class="coustomer-card">
+                    <div class="center">
+                        <img class="coustomer-image" src="./assets/icons/profile-girl-image.svg" alt="Title">
+                    </div>
+                    <h4 class="text-center coustomer-name">shruti Roy</h4>
+                    <div class="center">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                    <div class="Customer-card-footer mt-5">
+                        <p class="text-center text-capitalize mt-5">Nice Furniture with good delivery. The delivery time
+                            is
+                            very
+                            fast. Then
+                            products look like exactly the picture in the
+                            app. Besides, color is also the same and quality is very good despite very cheap price</p>
+                        <div class="center fs-3 text-center mt-5">
+                            <i class="fa-brands fa-facebook fs-3"></i> &nbsp;
+                            via facebook
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="coustomer-card">
+                    <div class="center">
+                        <img class="coustomer-image" src="./assets/icons/profile-girl-image.svg" alt="Title">
+                    </div>
+                    <h4 class="text-center coustomer-name">shruti Roy</h4>
+                    <div class="center">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                    <div class="Customer-card-footer mt-5">
+                        <p class="text-center text-capitalize mt-5">Nice Furniture with good delivery. The delivery time
+                            is
+                            very
+                            fast. Then
+                            products look like exactly the picture in the
+                            app. Besides, color is also the same and quality is very good despite very cheap price</p>
+                        <div class="center fs-3 text-center mt-5">
+                            <i class="fa-brands fa-facebook fs-3"></i> &nbsp;
+                            via facebook
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="coustomer-card">
+                    <div class="center">
+                        <img class="coustomer-image" src="./assets/icons/profile-girl-image.svg" alt="Title">
+                    </div>
+                    <h4 class="text-center coustomer-name">shruti Roy</h4>
+                    <div class="center">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                    <div class="Customer-card-footer mt-5">
+                        <p class="text-center text-capitalize mt-5">Nice Furniture with good delivery. The delivery time
+                            is
+                            very
+                            fast. Then
+                            products look like exactly the picture in the
+                            app. Besides, color is also the same and quality is very good despite very cheap price</p>
+                        <div class="center fs-3 text-center mt-5">
+                            <i class="fa-brands fa-facebook fs-3"></i> &nbsp;
+                            via facebook
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="coustomer-card">
+                    <div class="center">
+                        <img class="coustomer-image" src="./assets/icons/profile-girl-image.svg" alt="Title">
+                    </div>
+                    <h4 class="text-center coustomer-name">shruti Roy</h4>
+                    <div class="center">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                    <div class="Customer-card-footer mt-5">
+                        <p class="text-center text-capitalize mt-5">Nice Furniture with good delivery. The delivery time
+                            is
+                            very
+                            fast. Then
+                            products look like exactly the picture in the
+                            app. Besides, color is also the same and quality is very good despite very cheap price</p>
+                        <div class="center fs-3 text-center mt-5">
+                            <i class="fa-brands fa-facebook fs-3"></i> &nbsp;
+                            via facebook
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="center">
+            <p class="text-center shopwhatstxt fs-1 pb-0">Customer stories</p>
+        </div>
+        <div class="row justify-content-center align-items-start g-2">
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="card text-start">
+                    <img class="card-img-top" src="./assets/images/Rectangle-56.png" alt="Title">
+                    <div class="card-body">
+                        <h4 class="card-title">understanding ratton and wicker furniture</h4>
+                        <p class="card-text">Rattan and wicker are not the same thing. Confused? Read this blog post to
+                            know all about wicker and rattan furniture
+                            for every area of your home!</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="card text-start">
+                    <img class="card-img-top" src="./assets/images/Rectangle-56.png" alt="Title">
+                    <div class="card-body">
+                        <h4 class="card-title">understanding ratton and wicker furniture</h4>
+                        <p class="card-text">Rattan and wicker are not the same thing. Confused? Read this blog post to
+                            know all about wicker and rattan furniture
+                            for every area of your home!</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="card text-start">
+                    <img class="card-img-top" src="./assets/images/Rectangle-58.png" alt="Title">
+                    <div class="card-body">
+                        <h4 class="card-title">understanding ratton and wicker furniture</h4>
+                        <p class="card-text">Rattan and wicker are not the same thing. Confused? Read this blog post to
+                            know all about wicker and rattan furniture
+                            for every area of your home!</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="card text-start">
+                    <img class="card-img-top" src="./assets/images/Rectangle-59.png" alt="Title">
+                    <div class="card-body">
+                        <h4 class="card-title">understanding ratton and wicker furniture</h4>
+                        <p class="card-text">Rattan and wicker are not the same thing. Confused? Read this blog post to
+                            know all
+                            about wicker and rattan furniture
+                            for every area of your home!</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="card text-start">
+                    <img class="card-img-top" src="./assets/images/Rectangle-60.png" alt="Title">
+                    <div class="card-body">
+                        <h4 class="card-title">understanding ratton and wicker furniture</h4>
+                        <p class="card-text">Rattan and wicker are not the same thing. Confused? Read this blog post to
+                            know all
+                            about wicker and rattan furniture
+                            for every area of your home!</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="card text-start">
+                    <img class="card-img-top" src="./assets/images/Rectangle-61.png" alt="Title">
+                    <div class="card-body">
+                        <h4 class="card-title">understanding ratton and wicker furniture</h4>
+                        <p class="card-text">Rattan and wicker are not the same thing. Confused? Read this blog post to
+                            know all
+                            about wicker and rattan furniture
+                            for every area of your home!</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="card text-start">
+                    <img class="card-img-top" src="./assets/images/Rectangle-56.png" alt="Title">
+                    <div class="card-body">
+                        <h4 class="card-title">understanding ratton and wicker furniture</h4>
+                        <p class="card-text">Rattan and wicker are not the same thing. Confused? Read this blog post to
+                            know all about wicker and rattan furniture
+                            for every area of your home!</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="card text-start">
+                    <img class="card-img-top" src="./assets/images/Rectangle-56.png" alt="Title">
+                    <div class="card-body">
+                        <h4 class="card-title">understanding ratton and wicker furniture</h4>
+                        <p class="card-text">Rattan and wicker are not the same thing. Confused? Read this blog post to
+                            know all about wicker and rattan furniture
+                            for every area of your home!</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="card text-start">
+                    <img class="card-img-top" src="./assets/images/Rectangle-58.png" alt="Title">
+                    <div class="card-body">
+                        <h4 class="card-title">understanding ratton and wicker furniture</h4>
+                        <p class="card-text">Rattan and wicker are not the same thing. Confused? Read this blog post to
+                            know all about wicker and rattan furniture
+                            for every area of your home!</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="card text-start">
+                    <img class="card-img-top" src="./assets/images/Rectangle-59.png" alt="Title">
+                    <div class="card-body">
+                        <h4 class="card-title">understanding ratton and wicker furniture</h4>
+                        <p class="card-text">Rattan and wicker are not the same thing. Confused? Read this blog post to
+                            know all
+                            about wicker and rattan furniture
+                            for every area of your home!</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="card text-start">
+                    <img class="card-img-top" src="./assets/images/Rectangle-60.png" alt="Title">
+                    <div class="card-body">
+                        <h4 class="card-title">understanding ratton and wicker furniture</h4>
+                        <p class="card-text">Rattan and wicker are not the same thing. Confused? Read this blog post to
+                            know all
+                            about wicker and rattan furniture
+                            for every area of your home!</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="card text-start">
+                    <img class="card-img-top" src="./assets/images/Rectangle-61.png" alt="Title">
+                    <div class="card-body">
+                        <h4 class="card-title">understanding ratton and wicker furniture</h4>
+                        <p class="card-text">Rattan and wicker are not the same thing. Confused? Read this blog post to
+                            know all
+                            about wicker and rattan furniture
+                            for every area of your home!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="center dsdfgdsghd">
+            <button class="View-All-btn-Inspiration pointer fw-bold">View All <i
+                    class="fa-solid fa-arrow-right"></i></button>
+        </div>
+
+    </div>
+
+    <footer class="footer-32892 pb-0">
+        <div class="site-section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md pr-md-5 mb-4 mb-md-0">
+                        <h3>About Us</h3>
+                        <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam itaque unde
+                            facere
+                            repellendus, odio et iste voluptatum aspernatur ratione mollitia tempora eligendi maxime
+                            est,
+                            blanditiis
+                            accusamus. Incidunt, aut, quis!</p>
+                        <ul class="list-unstyled quick-info mb-4">
+                            <li><a href="#" class="d-flex align-items-center">
+                                    <i class="fa-solid fa-phone me-3"></i>
+                                    +1 291 3912 329</a></li>
+                            <li><a href="#" class="d-flex align-items-center">
+                                    <i class="fa-solid fa-envelope me-3"></i>
+                                    info@gmail.com</a></li>
+                        </ul>
+
+                        <form action="#" class="subscribe">
+                            <input type="text" class="form-control" placeholder="Enter your e-mail">
+                            <input type="submit" class="btn btn-submit" value="Send">
+                        </form>
+                    </div>
+                    <div class="col-md mb-4 mb-md-0">
+                        <h3>Latest Tweet</h3>
+                        <ul class="list-unstyled tweets">
+                            <li class="d-flex">
+                                <div class="mr-4"><i class="fa-brands fa-twitter text-light"></i></div>
+                                <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere unde omnis veniam
+                                    porro excepturi.
+                                </div>
+                            </li>
+                            <li class="d-flex">
+                                <div class="mr-4"><i class="fa-brands fa-twitter text-light"></i></div>
+                                <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere unde omnis veniam
+                                    porro excepturi.
+                                </div>
+                            </li>
+                            <li class="d-flex">
+                                <div class="mr-4"><i class="fa-brands fa-twitter text-light"></i></div>
+                                <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere unde omnis veniam
+                                    porro excepturi.
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+
+
+                    <div class="col-md-3 mb-4 mb-md-0">
+                        <h3>Instagram</h3>
+                        <div class="row gallery">
+                            <div class="col-6">
+                                <a href="#"><img src="https://source.unsplash.com/random/500x500/?FURNITURE" alt="Image"
+                                        class="img-fluid"></a>
+                                <a href="#"><img src="https://source.unsplash.com/random/500x500/?Chir" alt="Image"
+                                        class="img-fluid"></a>
+                            </div>
+                            <div class="col-6">
+                                <a href="#"><img src="https://source.unsplash.com/random/500x500/?Sofa" alt="Image"
+                                        class="img-fluid"></a>
+                                <a href="#"><img src="https://source.unsplash.com/random/500x500/?Table" alt="Image"
+                                        class="img-fluid"></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12">
+                        <div class="py-5 footer-menu-wrap d-md-flex align-items-center">
+                            <ul class="list-unstyled footer-menu mr-auto">
+                                <li><a href="#">Home</a></li>
+                                <li><a href="#">About</a></li>
+                                <li><a href="#">Our works</a></li>
+                                <li><a href="#">Services</a></li>
+                                <li><a href="#">Blog</a></li>
+                                <li><a href="#">Contacts</a></li>
+                            </ul>
+                            <div class="site-logo-wrap ml-auto">
+                                <a href="#" class="site-logo">
+                                    FurnishFlow
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
+    <script type="text/javascript">
+        fetch('data.json')
+            .then(function (response) {
+                return response.json();
+            })
+            .then(function (data) {
+                appendData(data);
+            })
+            .catch(function (err) {
+                console.log('error: ' + err);
+            });
+
+        function appendData(data) {
+            let mainContainer = document.getElementById("myData");
+            let datt = document.getElementById("myData");
+            for (let i = 0; i < data.length; i++) {
+                if (data[i].fature == 'New') {
+                    var badge = "text-bg-danger";
+                } else if (data[i].fature == 'Trend') {
+                    var badge = "text-bg-primary";
+                } else if (data[i].fature == 'Featured') {
+                    var badge = "text-bg-warning";
+                } else if (data[i].fature == 'Hot') {
+                    var badge = "text-bg-success";
+                } else {
+                    var badge = "text-bg-info";
+                }
+                let div = document.createElement("div");
+                div.classList.add("col-xl-3");
+                div.classList.add("col-lg-4");
+                div.classList.add("col-md-6");
+                div.classList.add("mb-4");
+                div.innerHTML = `
+                    <div class="bg-white rounded shadow-sm"><img
+                            src="${data[i].url}" alt=""
+                            class="img-fluid card-img-top">
+                        <div class="p-4">
+                            <h5 class="text-dark">${data[i].title}</h5>
+                            <p class="small text-muted mb-0">${data[i].filtype}</p>
+                            <div
+                                class="d-flex align-items-center justify-content-between rounded-pill bg-light px-3 py-2 mt-4">
+                                <p class="small mb-0"><i class="fa fa-picture-o mr-2"></i><span
+                                        class="font-weight-bold">${data[i].description}</span></p>
+                                <div class="badge ${badge} px-3 rounded-pill font-weight-normal text-light">${data[i].fature}</div>
+                            </div>
+                        </div>
+                    </div>`;
+                mainContainer.appendChild(div);
+            }
+        }
+    </script>
+    <script src="owl.js"></script>
+</body>
+
+</html>
